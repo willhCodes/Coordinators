@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
- class MainCoordinator: Coordinator {
+ class MainCoordinator: Coordinator, Buying, ACcountCreating {
     var childCoordinators = [Coordinator]()
     var navigationController: UINavigationController
     

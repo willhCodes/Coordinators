@@ -8,8 +8,10 @@
 import UIKit
 
  class ViewController: UIViewController, Storyboarded {
+     
+     
     
-     var coordinator: MainCoordinator?
+     var coordinator: (Buying & ACcountCreating)?
     
 
     @IBAction func buyTapped(_ sender: Any) {
