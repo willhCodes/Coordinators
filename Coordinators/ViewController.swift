@@ -19,7 +19,7 @@ import UIKit
         coordinator?.createAccount()
 
     }
-    override public func viewDidLoad() {
+     override public func viewDidLoad() {
         super.viewDidLoad()
         print ("viewdidload")
         // Do any additional setup after loading the view.
