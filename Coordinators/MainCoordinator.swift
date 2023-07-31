@@ -25,8 +25,10 @@ import UIKit
         
       }
     
-     func buySubscription() {
+     func buySubscription(to productType: Int) {
         let vc = BuyViewController.instantiate(for: "Main")
+         
+         vc.selectedProduct = productType
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
     }

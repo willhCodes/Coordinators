@@ -11,9 +11,11 @@ import UIKit
     
      var coordinator: MainCoordinator?
     
-
+     @IBOutlet weak var product: UISegmentedControl!
+     
     @IBAction func buyTapped(_ sender: Any) {
-        coordinator?.buySubscription()
+        coordinator?.buySubscription(to: product.selectedSegmentIndex)
+        print (product.selectedSegmentIndex)
     }
     @IBAction func createAccountTapped(_ sender: Any) {
         coordinator?.createAccount()
