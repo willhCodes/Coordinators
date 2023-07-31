@@ -8,32 +8,34 @@
 import Foundation
 import UIKit
 
- class MainCoordinator: Coordinator {
+class MainCoordinator: Coordinator {
     var childCoordinators = [Coordinator]()
-    var navigationController: UINavigationController
+    var navigationController: UINavigationController 
     
     init (navigationController: UINavigationController) {
         self.navigationController = navigationController
     }
     
-     func start() {
+    func start() {
         let view = ViewController.instantiate(for: "Main")
-
+        
+        view.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
+        
         view.coordinator = MainCoordinator(navigationController: navigationController)
         
         navigationController.pushViewController(view, animated: false)
         
-      }
+    }
     
-     func buySubscription(to productType: Int) {
+    func buySubscription() {
         let vc = BuyViewController.instantiate(for: "Main")
-         
-         vc.selectedProduct = productType
+        
+        
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
     }
     
-     func createAccount() {
+    func createAccount() {
         let vc = CreateAccountViewController.instantiate(for: "Main")
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)

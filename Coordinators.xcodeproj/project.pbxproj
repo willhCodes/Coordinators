@@ -10,6 +10,7 @@
 		751EB3F62A71CC6D007361CA /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751EB3F52A71CC6D007361CA /* MainCoordinator.swift */; };
 		751EB3F82A71CE15007361CA /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751EB3F72A71CE15007361CA /* BuyViewController.swift */; };
 		751EB3FA2A71CE22007361CA /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751EB3F92A71CE22007361CA /* CreateAccountViewController.swift */; };
+		755594E02A785B0B006092EC /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755594DF2A785B0B006092EC /* MainTabBarViewController.swift */; };
 		75BCA7902A71C6AB004856EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BCA78F2A71C6AB004856EE /* AppDelegate.swift */; };
 		75BCA7922A71C6AB004856EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BCA7912A71C6AB004856EE /* SceneDelegate.swift */; };
 		75BCA7942A71C6AB004856EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BCA7932A71C6AB004856EE /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 		751EB3F52A71CC6D007361CA /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		751EB3F72A71CE15007361CA /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		751EB3F92A71CE22007361CA /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		755594DF2A785B0B006092EC /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		75853AB72A7207BB004E5D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75BCA78C2A71C6AB004856EE /* Coordinators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coordinators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75BCA78F2A71C6AB004856EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				75BCA7A82A71C720004856EE /* Storyboarded.swift */,
 				75BCA78F2A71C6AB004856EE /* AppDelegate.swift */,
 				75BCA7932A71C6AB004856EE /* ViewController.swift */,
+				755594DF2A785B0B006092EC /* MainTabBarViewController.swift */,
 				751EB3F72A71CE15007361CA /* BuyViewController.swift */,
 				751EB3F92A71CE22007361CA /* CreateAccountViewController.swift */,
 				751EB3F52A71CC6D007361CA /* MainCoordinator.swift */,
@@ -161,6 +164,7 @@
 				751EB3F62A71CC6D007361CA /* MainCoordinator.swift in Sources */,
 				75BCA7942A71C6AB004856EE /* ViewController.swift in Sources */,
 				75BCA7A72A71C6E0004856EE /* Coordinator.swift in Sources */,
+				755594E02A785B0B006092EC /* MainTabBarViewController.swift in Sources */,
 				75BCA7902A71C6AB004856EE /* AppDelegate.swift in Sources */,
 				751EB3FA2A71CE22007361CA /* CreateAccountViewController.swift in Sources */,
 				75BCA7922A71C6AB004856EE /* SceneDelegate.swift in Sources */,
